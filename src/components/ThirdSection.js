@@ -23,66 +23,66 @@ export const ThirdSection = () => {
                 </div>
                 <div className=" flex flex-col gap-[48px]">
                     <div className="flex flex-row justify-between">
-                        <div>
+                        <div className="text-[#000] dark:text-[white]">
                             <JSIcon />
                             Javascript
                         </div>
-                        <div>
+                        <div className="text-[#000] dark:text-[white]">
                             <TypesScriptss />
                             TypeScript
                         </div>
-                        <div> <React />
+                        <div className="text-[#000] dark:text-[white]"> <React />
                             React
                         </div>
-                        <div> <Type />
+                        <div className="text-[#000] dark:text-[white]"> <Type />
                             Next.js
                         </div>
-                        <div><Nodee />
+                        <div className="text-[#000] dark:text-[white]"><Nodee />
                             Node.js
                         </div>
-                        <div>
+                        <div className="text-[#000] dark:text-[white]">
                             <Express />
                             Express.js
                         </div>
-                        <div>
+                        <div className="text-[#000] dark:text-[white]">
                             <Nest />
                             Nest.js
                         </div>
-                        <div>
+                        <div className="text-[#000] dark:text-[white]">
                             <Socket />
                             Socket
                         </div>
                     </div>
                     <div className="flex flex-row justify-between">
-                        <div>
+                        <div className="text-[#000] dark:text-[white]">
                             <MongoDB />
                             MongoDB
                         </div>
-                        <div>
+                        <div className="text-[#000] dark:text-[white]">
                             <Sacc />
                             Sacc/Scss
                         </div>
-                        <div>
+                        <div className="text-[#000] dark:text-[white]">
                             <Tailwindcss />
                             Tailwindcss
                         </div>
-                        <div>
+                        <div className="text-[#000] dark:text-[white]">
                             <Figma />
                             Figma
                         </div>
-                        <div>
+                        <div className="text-[#000] dark:text-[white]">
                             <Cypress />
                             Cypress
                         </div>
-                        <div>
+                        <div className="text-[#000] dark:text-[white]">
                             <StoryBook />
                             StoryBook
                         </div>
-                        <div>
+                        <div className="text-[#000] dark:text-[white]">
                             <Github />
                             Github
                         </div>
-                        <div>
+                        <div className="text-[#000] dark:text-[white]">
                             <Github />
                             Github
                         </div>

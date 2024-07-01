@@ -13,6 +13,7 @@ export default function Home() {
   const [isDark, setIsdark] = useState(false);
   const handleClick = () => {
     setIsdark(!isDark)
+    setTimeout
   }
   return (
     <>
@@ -20,7 +21,7 @@ export default function Home() {
         <button onClick={handleClick}>click</button>
         <div className="bg-white dark:bg-black">
           <Navbar toggle={handleClick} />
-          <FirstSection />
+          <FirstSection toggle={handleClick} />
           <SecondSection />
           <ThirdSection />
           <Section4 />
