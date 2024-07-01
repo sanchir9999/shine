@@ -24,9 +24,9 @@ export const FirstSection = () => {
                         <img className="w-[24px] h-[24px]" src="/pictures/figma.png"></img>
                     </div>
                 </div>
-                <div className="w-[568px] h-[364px] mr-[32px] shadow-gray-100 shadow-sm">
-                    <div className=" right-[40px] bottom-[40px]">
-                        <img className="w-[280px] h-[320px]" src="/pictures/Pic.png"></img>
+                <div className="w-[568px] h-[364px] mr-[32px]">
+                    <div className=" right-[40px] bottom-[40px] flex justify-end">
+                        <img className="w-[280px] h-[320px] shadow-custom" src="/pictures/Pic.png"></img>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import { NavbarPhone } from "./NavbarPhone"
-export const Navbar = () => {
+export const Navbar = ({ toggle }) => {
     return (
         <div className="lg:w-[1440px] m-auto">
             <div className="lg:w-[1440px] m-auto h-[68px] content-center items-center" >
@@ -14,7 +14,7 @@ export const Navbar = () => {
                         <div><h4>Testimonials</h4></div>
                         <div><h4>Contacts</h4></div>
                         <div className="flex gap-16px justify-between items-center ">
-                            <div><img className="w-[24px] h-[24px]" src="/pictures/sun.png"></img></div>
+                            <button onClick={toggle}><img className="w-[24px] h-[24px]" src="/pictures/sun.png"></img></button>
                             <div className="w-[106px] h-[30px] text-white bg-blue-950 flex items-center justify-center text-center rounded-md  text-sm">Download CV</div>
                         </div>
                     </div>
